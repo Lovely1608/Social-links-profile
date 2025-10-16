@@ -39,7 +39,10 @@ body {
 div > img {
   max-width: 5rem;
   border-radius: 50%;
+<<<<<<< HEAD
   /* display: inline-start; */
+=======
+>>>>>>> e1a8dca1862c719f075b062d69f2267ade60647c
 }
 
 h2 {
@@ -54,10 +57,14 @@ h2 {
   font-size: var(--fontSize);
 }
 
+
 .site {
   --fontColor: #ccc;
   font-size: var(--fontSize);
+<<<<<<< HEAD
   font-weight: var(--fontWeigth);
+=======
+>>>>>>> e1a8dca1862c719f075b062d69f2267ade60647c
   color: var(--fontColor);
 }
 
