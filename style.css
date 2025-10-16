@@ -39,7 +39,7 @@ body {
 div > img {
   max-width: 5rem;
   border-radius: 50%;
-  margin-top: 1rem;
+  /* display: inline-start; */
 }
 
 h2 {
@@ -51,11 +51,14 @@ h2 {
   /* font-size: var(--fontSize); */
   color: var(--hoverColor);
   padding: 0.5rem 0rem 1.5rem;
+  font-size: var(--fontSize);
 }
 
 .site {
+  --fontColor: #ccc;
   font-size: var(--fontSize);
-  color: #ccc;
+  font-weight: var(--fontWeigth);
+  color: var(--fontColor);
 }
 
 a {
